@@ -102,7 +102,7 @@ Every behaviour rule was tested against a live call rather than assumed. The tes
 
 ## 🐛 Bugs found and fixed
 
-Four real defects surfaced during testing. All four were found by deliberately trying to break the system rather than confirming it worked.
+Five real defects surfaced during testing. All five were found by deliberately trying to break the system rather than confirming it worked.
 
 ### 1. Fabricated business policy
 The agent told a caller the dealership doesn't take reservations. That rule appeared nowhere in its instructions. It sounded reasonable, which is exactly what makes this class of failure dangerous — a plausible invention is harder to catch than an obvious one.
